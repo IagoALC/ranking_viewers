@@ -14,13 +14,21 @@ Tecnologias utilizadas:<br/>
 ## Iniciando a API
 1° - Instale todos os softwares
 
-2° - Copie e cole o [Banco de dados](/sql/bd_inicial.sql) (Banco Incluído no github somente para demonstração)
+2° - Clone o repositório
 
-3° - Rode o php artisan serve
+3° - No diretório rode o composer install para instalar todas as dependências.
 
-4° - Abra sua plataforma de gerenciamento de API (Postman, Insomnia)
+4° - Copie e cole o [Banco de dados](/sql/bd_inicial.sql) (Banco Incluído no github somente para demonstração).
 
-5° - Acesse o endpoint http://localhost:8000/watchtime (Alternando a porta caso seja diferente da padrão "8000")
+5° - Na pasta root copie o env.example e renomeie para .env e coloque todos os dados relativos ao BD.
+
+5° - Rode o "php artisan key:generate"
+
+6° - Rode o "php artisan serve"
+
+7° - Abra sua plataforma de gerenciamento de API (Postman, Insomnia)
+
+8° - Acesse o endpoint http://localhost:8000/watchtime (Alternando a porta caso seja diferente da padrão "8000")
 
 
 

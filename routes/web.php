@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WatchTimeController;
+use App\Http\Controllers\ViewerWatchTimeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/watch_time', [WatchTimeController::class, 'index']);
+Route::get('/watch_time', [ViewerWatchTimeController::class, 'index']);

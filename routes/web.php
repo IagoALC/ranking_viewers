@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/watch_time', [ViewerWatchTimeController::class, 'index']);
+Route::get('/watchtime', [ViewerWatchTimeController::class, 'index']);
